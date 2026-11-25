@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SuiviSport">
 
-        <!-- Écran 1 : Splash (point d'entrée) -->
+
         <activity
             android:name=".ui.SplashActivity"
             android:exported="true">
@@ -22,32 +22,32 @@
             </intent-filter>
         </activity>
 
-        <!-- Écran 2 : Accueil (liste des séances) -->
+
         <activity
             android:name=".ui.MainActivity"
             android:exported="false" />
 
-        <!-- Écran 3 : Nouvelle séance -->
+
         <activity
             android:name=".ui.SeanceFormActivity"
             android:exported="false" />
 
-        <!-- Écran 4 : Détail d'une séance (liste des exercices) -->
+
         <activity
             android:name=".ui.SeanceDetailActivity"
             android:exported="false" />
 
-        <!-- Écran 5 : Nouvel exercice -->
+
         <activity
             android:name=".ui.ExerciceFormActivity"
             android:exported="false" />
 
-        <!-- Écran 6 : Statistiques -->
+
         <activity
             android:name=".ui.StatsActivity"
             android:exported="false" />
 
-        <!-- Écran 7 : Réglages -->
+
         <activity
             android:name=".ui.SettingsActivity"
             android:exported="false" />

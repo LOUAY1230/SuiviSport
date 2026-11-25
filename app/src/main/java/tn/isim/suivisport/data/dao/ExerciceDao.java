@@ -19,7 +19,7 @@ public interface ExerciceDao {
     @Delete
     void delete(Exercice exercice);
 
-    /** Requête paramétrée : exercices d'une séance donnée. */
+
     @Query("SELECT * FROM exercices WHERE seanceId = :seanceId ORDER BY id ASC")
     LiveData<List<Exercice>> getBySeance(int seanceId);
 
