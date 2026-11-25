@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">SuiviSport</string>
+    <string name="splash_tagline">Track your workout sessions</string>
+
+    <!-- Home -->
+    <string name="main_greeting_named">Hello, %1$s!</string>
+    <string name="main_greeting_anonymous">Hello!</string>
+    <string name="main_subtitle">Your sessions</string>
+    <string name="btn_stats">Statistics</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_add_seance">New session</string>
+    <string name="empty_seances">No sessions yet. Add your first one!</string>
+
+    <!-- Common buttons -->
+    <string name="btn_save">Save</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Session form -->
+    <string name="seance_form_title">New session</string>
+    <string name="hint_seance_titre">Title (e.g. Chest)</string>
+    <string name="hint_seance_date">Date</string>
+    <string name="hint_seance_notes">Notes (optional)</string>
+    <string name="error_titre_required">Title is required</string>
+    <string name="error_titre_too_long">60 characters maximum</string>
+    <string name="msg_seance_saved">Session saved</string>
+
+    <!-- Session detail -->
+    <string name="detail_stats_title">Session summary</string>
+    <string name="label_nb_exercices">Exercises: %1$d</string>
+    <string name="label_volume">Total volume: %1$s kg</string>
+    <string name="label_duree">Total duration: %1$s min</string>
+    <string name="btn_add_exercice">Add an exercise</string>
+    <string name="btn_share">Share</string>
+    <string name="btn_email">Send by e-mail</string>
+    <string name="empty_exercices">No exercises in this session.</string>
+    <string name="exercice_details">%1$d × %2$d · %3$s kg · %4$s min</string>
+    <string name="msg_invalid_seance">Session not found</string>
+
+    <!-- Exercise form -->
+    <string name="exercice_form_title">New exercise</string>
+    <string name="hint_exercice_nom">Name (e.g. Bench press)</string>
+    <string name="hint_exercice_series">Sets</string>
+    <string name="hint_exercice_reps">Repetitions</string>
+    <string name="hint_exercice_charge">Weight in kg (optional)</string>
+    <string name="hint_exercice_duree">Duration in min (optional)</string>
+    <string name="error_nom_required">Name is required</string>
+    <string name="error_nom_too_long">60 characters maximum</string>
+    <string name="error_series_invalid">Enter a number between 1 and 100</string>
+    <string name="error_reps_invalid">Enter a number between 1 and 1000</string>
+    <string name="error_charge_invalid">Enter a number between 0 and 1000</string>
+    <string name="error_duree_invalid">Enter a number between 0 and 600</string>
+    <string name="msg_exercice_saved">Exercise added</string>
+
+    <!-- Statistics -->
+    <string name="stats_title">Statistics</string>
+    <string name="stats_total_seances">Sessions: %1$d</string>
+    <string name="stats_total_exercices">Exercises: %1$d</string>
+    <string name="stats_total_volume">Total volume: %1$s kg</string>
+    <string name="stats_total_duree">Total duration: %1$s min</string>
+    <string name="stats_moyenne_volume">Average volume per session: %1$s kg</string>
+    <string name="stats_derniere">Last session: %1$s (%2$s)</string>
+    <string name="stats_derniere_none">No session recorded</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_username_hint">Username (optional)</string>
+    <string name="settings_dark_mode">Dark theme</string>
+    <string name="settings_sort_recent">Most recent sessions first</string>
+    <string name="error_username_too_long">30 characters maximum</string>
+    <string name="msg_settings_saved">Settings saved</string>
+
+    <!-- Implicit intents -->
+    <string name="share_seance_text">SuiviSport — %1$s (%2$s)\nExercises: %3$d\nTotal volume: %4$s kg\nTotal duration: %5$s min</string>
+    <string name="share_chooser_title">Share the session</string>
+    <string name="email_subject">My SuiviSport session: %1$s</string>
+    <string name="msg_no_share_app">No app available for sharing</string>
+    <string name="msg_no_email_app">No e-mail app installed</string>
+    <string name="msg_nothing_to_share">Add at least one exercise before sharing</string>
+
+    <!-- Confirmations -->
+    <string name="confirm_delete_seance_title">Delete the session?</string>
+    <string name="confirm_delete_seance_message">The session “%1$s” and all its exercises will be deleted.</string>
+    <string name="confirm_delete_exercice_title">Delete the exercise?</string>
+    <string name="confirm_delete_exercice_message">The exercise “%1$s” will be deleted.</string>
+</resources>
